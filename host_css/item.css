@@ -1,0 +1,29 @@
+.item{
+    margin-top: 2%;
+}
+.item_list{
+    border: 1px solid;
+    border-collapse:collapse;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 50px;
+
+}
+.title{
+background-color: rgba(15, 79, 15, 0.38);
+    font-size: 50px;
+}
+.list{
+    border-spacing:0;
+    margin-left: 2%;
+    margin-top: 20px;
+    width: 96%;
+    margin-bottom: 40px;
+
+}
+.list tr td{
+    width: 20%;
+    text-align: center;
+    border: 1px solid;
+
+}
