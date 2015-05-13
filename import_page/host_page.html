@@ -3,24 +3,24 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-<link  rel="stylesheet" type="text/css" href="../host_css/title.css">
-<link  rel="stylesheet" type="text/css" href="../host_css/first.css">
+    <link  rel="stylesheet" type="text/css" href="../host_css/title.css">
+    <link  rel="stylesheet" type="text/css" href="../host_css/host_page.css">
+    <script type="text/javascript" src="../js/title.js"></script>
+    <script type="text/javascript" src="../js/jquery-2.1.3.js"></script >
 </head>
 
 <body>
 <div class="nav">
   <ul>
-      <li><a href="item_list.html">Les'Go</a></li>
+      <li><a href="host_page.html">Les'Go</a></li>
       <li><a href="host_page.html">主页</a></li>
       <li><a href="item_list.html">商品列表</a></li>
   </ul>
 <table>
     <tr>
-    <td><img src="../image/cart.png"></td>
-    <td><a href="cart.html">购物车</a></td>
-    <td>(0)</td>
+        <td><img src="../image/shopping71.png"></td>
+    <td><a href="cart.html" id="cart_count">购物车()</a></td>
 </tr></table>
-
 </div>
 
 <div class="content">
@@ -38,9 +38,14 @@
     <input type="button" value="Les'Go" onclick="window.location.href='item_list.html'"/>
 
 </div>
-<script>
-    var child=document.getElementById('h2');
-    child.parentNode.removeChild(child);
-</script>
+<!--<script>-->
+    <!--var child=document.getElementById('h2');-->
+    <!--child.parentNode.removeChild(child);-->
+<!--</script>-->
 </body>
 </html>
+<script>
+    $(document).ready(function(){
+        item_count();
+    })
+</script>
