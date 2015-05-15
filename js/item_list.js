@@ -43,9 +43,7 @@ function lists(){
             unit: '袋',
             price: 4.50
         }
-
     ];
-
 var item='';
 for(var i in items) {
    var item_count =items[i];
@@ -60,7 +58,6 @@ function showItem() {
     var item_data = JSON.parse(localStorage.getItem('cart_list'));
     $('#tab').html(item_data);
 }
-
 function add_item(id) {
     var btn = id;
     var all_item = JSON.parse(localStorage.getItem('allItems'));
@@ -84,7 +81,6 @@ function add_item(id) {
             }
         }
     }
-
     localStorage.setItem('shopping_cart_list', JSON.stringify(get_cart_list));
     location.reload();
 }

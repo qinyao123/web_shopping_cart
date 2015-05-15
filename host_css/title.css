@@ -1,9 +1,10 @@
 .nav ul li a{
     text-decoration: none;
     font-size:25px;
-    color: cornsilk;
-
+    color: rgba(128, 128, 128, 0.88);
 }
+.nav li a:hover{
+     background-color:rgba(128, 128, 128, 0.88); color:#fff}
 .nav ul li{
     display: inline-block;
     padding-left: 2.5%;
@@ -11,18 +12,18 @@
 }
 .nav {
     background-color: black;
-
 }
 .nav table  {
     margin-top: -3%;
     margin-left: 80%;
-    background-color: #241F1F;
-    border-color: #000000;
-
 }
+.nav table :hover{
+    background-color:rgba(128, 128, 128, 0.88); color: #ffffff
+}
+
 .nav table a{
     text-decoration: none;
-    color:cornsilk;
+    color:rgba(128, 128, 128, 0.88);
     font-size:20px;
 }
 .nav table img{
