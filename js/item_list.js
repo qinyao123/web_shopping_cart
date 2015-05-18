@@ -48,7 +48,7 @@ var item='';
 for(var i in items) {
    var item_count =items[i];
     var btn = i.toString();
-    item = item + '<tr>'+ '<td>' + item_count.classify + '</td><td>' + item_count.name + '</td><td>' + item_count.price + '</td><td>' + item_count.unit + '</td><td>' + '<button id='+btn+' style="color:white;background:rgb(67, 105, 207);font-size:20px;border-radius: 5px;border-color:rgb(67, 105, 207); " onclick="add_item(this.id)">加入购物车</button></td>'+ '</tr>';
+    item = item + '<tr>'+ '<td>' + item_count.classify + '</td><td>' + item_count.name + '</td><td>' + item_count.price + '</td><td>' + item_count.unit + '</td><td>' + '<button id='+btn+' style="color:white;background:rgb(64,139,206);font-size:20px;border-radius: 5px;border-color:rgb(67, 105, 207); " onclick="add_item(this.id)">加入购物车</button></td>'+ '</tr>';
 }
 return [item,items];
 }
@@ -63,9 +63,7 @@ function add_item(id) {
     var all_item = JSON.parse(localStorage.getItem('allItems'));
     var cart_item = all_item[btn];
     cart_item.count = 1;
-    cart_item.freecount = -1;
     var get_cart_list= JSON.parse(localStorage.getItem('shopping_cart_list'))||[];
-
     if(get_cart_list.length == 0){
         get_cart_list.push(cart_item);
     }

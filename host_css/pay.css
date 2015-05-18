@@ -1,38 +1,40 @@
-.item{
-    margin-top: 2%;
+.item {
+    margin-top: 3%;
 }
 .item_list{
-    border-collapse:collapse;
     border: 1px solid;
     width: 90%;
-    margin-left: 5%;
+    margin-left:5%;
+    border-collapse:collapse;
 }
 .title{
-    font-size: 30px;
+    font-size: 20px;
     background-color:rgb(245,245,245);
 }
-.list{
+.list {
     border-spacing: 0;
     width: 95%;
     margin-left: 2.5%;
-    margin-bottom: 3%;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 .list tr td {
     border: 1px solid;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .sum{
 margin-left: 90%;
 }
 .sum_pay{
-    margin-left: 93%;
+   margin-left: 92%;
+    margin-top: 1%;
+
 }
 .pay{
-    background-color: rgb(64,139,206);
+    background-color:rgb(64,139,206);
     border-radius: 3px;
-    border-color:rgb(64,139,206);
+    border-color: rgb(64,139,206);
     color: aliceblue;
     width: 60px;
     height: 35px;

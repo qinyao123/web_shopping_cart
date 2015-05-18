@@ -4,6 +4,7 @@
     margin-left: 2.5%;
     margin-top:2.5% ;
     margin-bottom: 2.5%;
+
 }
 .content p {
     font-size: 25px;
@@ -12,20 +13,20 @@
 
 }
 .content{
-    background-color: rgba(43, 99, 135, 0.55);
-    margin-left:3%;
-    margin-right: 3%;
-
+    background-color: rgb(238,238,238);
+    margin-left:7%;
+    margin-right: 7%;
+    height: 400px;
+    margin-top: 2.5%;
 }
 .content input{
-    border: blue;
+    border:rgb(64,139,206);
     font-size: 20px;
-    background-color: blue;
+    background-color:rgb(64,139,206);
     color: white;
-    width: 80px;
+    width: 90px;
     height: 40px;
     margin-left: 2.5%;
-    margin-bottom: 2.5%;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
